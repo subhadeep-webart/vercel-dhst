@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { verifyToken } from "./lib/jwt";
 
-export function proxy(req) {
+export function middleware(req) {
     const token = req.cookies.get("adminToken")?.value;
     const { pathname } = req.nextUrl;
 
