@@ -1,0 +1,17 @@
+.knowledge_points_wrapper {
+  position: relative;
+ /* space so content doesn't overlap */
+}
+
+.knowledge_points_wrapper::before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  top: 0;
+  width: 89px;
+  height: 100%;           /* width of the colored portion */
+  max-height: 651px;
+  background: #F3ECDD;   /* replace with your color */
+  border-radius: 12px; /* rounded right side */
+  z-index: 1;
+}

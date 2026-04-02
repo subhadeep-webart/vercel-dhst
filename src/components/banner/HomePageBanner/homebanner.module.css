@@ -1,0 +1,42 @@
+.home_banner_container {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(180deg, #F3ECDD 43.72%, #F2D0AA 100%);
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 72px;
+}
+
+.home_banner_container::after {
+    content: "";
+    position: absolute;
+
+    width: 140px;
+    height: 130px;
+    background: rgba(231, 140, 70, 1);
+    border-radius: 50%;
+
+    filter: blur(60px);
+
+    top: 337px;
+    left: 227px;
+
+    pointer-events: none;
+}
+
+.home_banner_container::before {
+    content: "";
+    position: absolute;
+
+    width: 140px;
+    height: 130px;
+    background: rgba(231, 140, 70, 1);
+    border-radius: 50%;
+
+    filter: blur(70px);
+
+    top: 500px;
+    right: 100px;
+
+    pointer-events: none;
+}

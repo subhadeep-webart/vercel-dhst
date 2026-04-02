@@ -1,0 +1,40 @@
+
+.treatment_card {
+  position: relative;
+  max-width: 303px;
+}
+
+.treatment_card::after {
+  content: "";
+  position: absolute;
+
+  width: clamp(180px, 28vw, 420px);
+  height: clamp(70px, 10vw, 160px);
+
+  background-image: url("/assets/images/home/vector-line.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.treatment_card:last-child::after {
+  display: none;
+}
+
+.step_1::after {
+  bottom: clamp(10px, 2vw, 30px);
+  left: 21%;
+}
+
+.step_2::after {
+  bottom: clamp(-20px, -2vw, -38px);
+  left: 26%;
+}
+
+.step_3::after {
+  bottom: clamp(-80px, -6vw, -100px);
+  left: 31%;
+}
+
+.step_4::after {
+  display: none;
+}

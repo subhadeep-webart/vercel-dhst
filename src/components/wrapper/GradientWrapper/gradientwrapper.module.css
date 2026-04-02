@@ -1,0 +1,57 @@
+.gradient_wrapper_container {
+    position: relative;
+}
+
+.gradient_wrapper_container::after,
+.gradient_wrapper_container::before {
+    content: "";
+    position: absolute;
+
+    width: 140px;
+    height: 130px;
+    background: rgba(231, 113, 70, 1);
+    border-radius: 50%;
+
+    filter: blur(80px);
+
+    pointer-events: none;
+}
+
+.gradient_wrapper_container_1::after {
+    bottom: -20px;
+    right: 0px;
+}
+
+.gradient_wrapper_container_1::before {
+    top: -20px;
+    left: 0px;
+}
+
+.gradient_wrapper_container_2::after {
+    bottom: 120px;
+    left: 0px;
+}
+
+.gradient_wrapper_container_2::before {
+    top: 120px;
+    right: 0px;
+}
+
+.gradient_wrapper_container_1_after::after {
+    bottom: -20px;
+    right: 0px;
+}
+
+.gradient_wrapper_container_1_after::before {
+    display: none;
+}
+
+
+.gradient_wrapper_container_2_before::after {
+    display: none;
+}
+
+.gradient_wrapper_container_2_before::before {
+    top: 120px;
+    right: 0px;
+}

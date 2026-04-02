@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1D1208;
+  --secondary: #48413A;
+  --autumn-leaves: #E78C46;
+  --button-primary: #F04A24;
+  --soft-ivory: #EFEBE4;
+  --soft-cream: #F5F2EB;
+  --ash-rose: #BEAEAB;
+  --vanilla-cream: #F3ECDD;
+  --peach-beige: #F2D4B1;
+  --taupe-gray: #877B77;
+  --silver-rose:#CFC4C1;
+  --espresso-brown: #1B1302;
+  --snow: #FAFAFA;
+  --autumn-orange-10: #F04A241A;
+  --peach: #F2E7D7;
+  --gainsboro: #D9D9D9;
+  --vermilion: #F04B25;
+  --midnight-blue: #0C1421;
+  --dark-blue: #1D314E;
+}
+
+/* Tailwind v4 theme tokens */
+@theme inline {
+  /* spacing */
+  --spacing-13: 52px;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-secondary: var(--secondary);
+  --color-button-primary: var(--button-primary);
+  --color-autumn-leaves: var(--autumn-leaves);
+  --color-soft-ivory: var(--soft-ivory);
+  --color-soft-cream: var(--soft-cream);
+  --color-ash-rose: var(--ash-rose);
+  --color-vanilla-cream: var(--vanilla-cream);
+  --color-peach-beige: var(--peach-beige);
+  --color-taupe-gray: var(--taupe-gray);
+  --color-silver-rose: var(--silver-rose);
+  --color-espresso-brown: var(--espresso-brown);
+  --color-snow: var(--snow);
+  --color-autumn-orange-10: var(--autumn-orange-10);
+  --color-peach: var(--peach);
+  --color-gainsboro: var(--gainsboro);
+  --color-vermilion: var(--vermilion);
+  --color-midnight-blue: var(--midnight-blue);
+  --color-dark-blue: var(--dark-blue);
+
+  --font-sans: var(--font-open-sans);
+  --font-heading: var(--font-proxima);
+
+
+}
+
+/* Bootstrap-like container */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Bootstrap breakpoints */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-open-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-proxima), sans-serif;
+}

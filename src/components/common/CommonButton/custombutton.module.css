@@ -1,0 +1,16 @@
+
+.common_btn {
+  position: relative;
+  display: inline-block;
+}
+
+.common_btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid #F04A24;
+  border-radius: 9999px;
+  background: #fff;
+  transform: translate(24px, 16px); /* bottom-right offset */
+  z-index: 0;
+}

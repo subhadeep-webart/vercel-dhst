@@ -1,0 +1,16 @@
+.behind_success_wrapper {
+  position: relative;
+ /* space so content doesn't overlap */
+}
+
+.behind_success_wrapper::before {
+  content: "";
+  position: absolute;
+  left: 197px;
+  top: 0;
+  width: 196px;           /* width of the colored portion */
+  height: 100%;
+  background: #F3ECDD;   /* replace with your color */
+  border-radius: 12px; /* rounded right side */
+  z-index: -1;
+}
