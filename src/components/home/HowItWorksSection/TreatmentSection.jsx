@@ -14,6 +14,7 @@ const TreatmentSection = ({ treatmentSteps }) => {
           value={step?.title}
           title={step?.description}
           step={index + 1}
+          img={step?.icon}
           className={`min-w-[263px] max-w-[303px] mt-${index * 16}`}
         />
       ))}

@@ -13,7 +13,7 @@ const DemorHotspotTherapyPage = () => {
         return <ContentLoadingCard title="Demor hotspot therapy section" />
     }
 
-    console.log("About page",aboutPage);
+    console.log("About page",aboutPage);s
     return (
         <ComponentCard title={"Demor hotspot therapy section"}>
             <DemorHotspotTherapyForm defaultValues={aboutPage?.section_details ?? {}} />

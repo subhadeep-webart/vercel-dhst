@@ -25,6 +25,7 @@ export const PUBLIC_IMAGES = {
   DocImg2: "/assets/images/home/doc-img-2.svg",
   DocImg3: "/assets/images/home/doc-img-3.svg",
   Body: "/assets/images/home/body.svg",
+  HumanSkeleton: "/assets/images/home/human_skeleton.svg",
   Circle: "/assets/images/home/circle.svg",
   BodyCareImg1: "/assets/images/home/body-care-img-1.svg",
   BodyCareImg2: "/assets/images/home/body-care-img-2.svg",
