@@ -1,3 +1,5 @@
+"use client"
+
 import InputField from "@/components/ui/admin/input/InputField"
 import TextArea from "@/components/ui/admin/input/Textarea"
 import Label from "@/components/ui/admin/Label"
